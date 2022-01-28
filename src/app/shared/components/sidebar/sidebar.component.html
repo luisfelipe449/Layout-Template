@@ -1,1 +1,15 @@
-<p>sidebar works</p>
+<mat-sidenav-container>
+  <mat-sidenav-content fxLayoutAlign="center">
+    <div id="sidenav" fxLayout="column">
+        <button id="button" mat-menu-item>
+            <a routerLink="/">Home</a>
+        </button>
+        <button id="button" mat-menu-item>
+            <a routerLink="/posts">Posts</a>
+        </button>
+        <button id="button" mat-menu-item>
+            <a routerLink="/login">Login</a>
+        </button>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>

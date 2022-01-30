@@ -1,15 +1,49 @@
 <mat-sidenav-container>
+ 
   <mat-sidenav-content fxLayoutAlign="center">
-    <div id="sidenav" fxLayout="column">
-        <button id="button" mat-menu-item>
-            <a routerLink="/">Home</a>
-        </button>
-        <button id="button" mat-menu-item>
-            <a routerLink="/posts">Posts</a>
-        </button>
-        <button id="button" mat-menu-item>
-            <a routerLink="/login">Login</a>
-        </button>
-    </div>
+    
+      <nav id="sidenav" fxLayout="column">
+      <img class="svg" src="../../../../assets/Lotus-Flower.svg" alt="">
+         
+
+
+      <ul  id="list">
+        <li id="button"><a routerLink="/">Home</a></li>
+      </ul>
+
+      <ul>
+        <li  id="button" class="dropdown">Terapias
+        <ul>
+          <li id="list"><a id="button" routerLink="/terapias/coach">Coach </a></li>
+          <li id="list"><a id="button" routerLink="/terapias/mentoria">Mentoria </a></li>
+          <li id="list"><a id="button" routerLink="/terapias/constelacao">Constelaçao </a></li>
+          <li id="list"><a id="button" routerLink="/terapias/bioalinhamento">Bioalinhamento </a></li>
+          <li id="list"><a id="button" routerLink="/terapias/reiki">Reiki</a></li>
+        </ul>
+        </li>
+      </ul>
+      
+      <ul>
+          <li  id="button" class="dropdown">Artesanatos
+          <ul>
+            <li id="list"><a id="button" routerLink="/artesanatos/japamalas">Japamalas</a></li>
+            <li id="list"><a id="button" routerLink="/artesanatos/escapularios">Escapularios</a></li>
+            <li id="list"><a id="button" routerLink="/artesanatos/pingentes">Pingentes</a></li>
+          </ul>
+          </li>
+        </ul>
+
+        <ul  id="list">
+          <li id="button"><a routerLink="/sobremim">Sobre mim</a></li>
+        </ul>
+
+        <ul  id="list">
+          <li id="button"><a routerLink="/contato">Contato</a></li>
+        </ul>
+
+        
+
+      </nav>
+    
   </mat-sidenav-content>
 </mat-sidenav-container>

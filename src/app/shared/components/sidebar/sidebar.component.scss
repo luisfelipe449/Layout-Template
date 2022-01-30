@@ -1,73 +1,107 @@
-* {
-    box-sizing: inherit;
-    transition-property: all;
-    transition-duration: .6s;
-    transition-timing-function: ease;
-  }
+
 mat-sidenav-container{
-    padding: 20px;
-    background-color: (#ff2626);
-    height: 100%;
+      background-color: (#273951);
+   height: 100%;
+    min-width: fit-content;
     
 }
+
+.svg {
+  filter: invert(52%) sepia(100%) saturate(331%) hue-rotate(139deg) brightness(93%) contrast(95%);
+  width: 50%;
+  align-self: center;
+  margin-bottom: 50px;
+}
+
+
 
 #button a{
     text-decoration: none;
     color: white;
-    letter-spacing: 0;
+    line-height: 25px;
 }
 
 #button {
    
-    
-    color: #fff;
+  font-family:'Dongle', 'Roboto', "Helvetica Neue",'Dongle', sans-serif;
+        color: #fff;
         cursor: pointer;
-        // display: block;
-        font-size:16px;
-        font-weight: 400;
-        line-height: 45px;
-        margin: 0 0 2em;
-        max-width: 160px; 
-        position: relative;
-        text-decoration: none;
-        text-transform: uppercase;
-        width: 100%; 
+        font-weight: 500;     
+        
 }
 
-#button:hover,
-#button:active {
-  letter-spacing: 5px;
+#sidenav>ul{
+  list-style-type: none;
+  font-size: 35px;
+  
 }
 
-#button:after,
-#button:before {
-  backface-visibility: hidden;
-  border: 1px solid rgba(#fff, 0);
-  bottom: 0px;
-  content: " ";
-  display: block;
-  margin: 0 auto;
+#sidenav>ul>li>ul>li{
+  list-style-type: none;
+  
+  font-size: 25px;
+}
+
+#list:hover{
+  padding-top: 5px;
+  background-color:#314866;
+  transition: .5s ease-in-out;
+}
+
+#sidenav>ul>li>ul>li::before{
+  
+  content: '▶';
   position: relative;
-  transition: all 280ms ease-in-out;
-  width: 0;
+  left: 0;
+  
 }
 
-#button:hover:after,
-#button:hover:before {
-  backface-visibility: hidden;
-  border-color: #fff;
-  transition: width 350ms ease-in-out;
-  width: 70%;
-}
-
-#button:hover:before {
-  bottom: auto;
-  top: 0;
-  width: 70%;
+ul#list, ul{
+ margin: 10px 0px;
 }
 
 
+@media screen and (max-width: 768px) {
+  
+  mat-sidenav-container{
+    min-width: fit-content;
+    position:sticky;
+    box-sizing: content-box;
+  }
+
+.svg{
+  max-width: 30%;
+  margin-bottom: 20px;
+}
 
 
 
+#button {
+   
+  font-family:'Dongle', 'Roboto', "Helvetica Neue",'Dongle', sans-serif;
+        color: #fff;
+        cursor: pointer;
+        font-weight: 500;     
+        
+}
 
+#sidenav>ul{
+  list-style-type: none;
+  font-size: 20px;
+  
+}
+
+#sidenav>ul>li>ul>li{
+  list-style-type: none;
+
+  font-size: 20px;
+}
+
+#list:hover{
+  padding-top: 1px;
+  background-color:#314866;
+  transition: .5s ease-in-out;
+}
+
+
+}

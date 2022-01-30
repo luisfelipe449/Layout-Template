@@ -1,8 +1,35 @@
-mat-toolbar{
-    background-color: (#ff2626);
+
+.svg {
+    filter: invert(52%) sepia(100%) saturate(331%) hue-rotate(139deg) brightness(93%) contrast(95%);
+  
+  }
+.nome{    
+    font-family:'Dongle', 'Roboto', "Helvetica Neue",'Dongle', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    color: #26B0C3;
 }
 
-button a{
+
+a{
     text-decoration: none;
-    color: black;
+    align-items: center;
 }
+    
+
+  
+header{
+    background-color: (#273951);
+    padding: 10px; 
+    min-width: 550px;
+}
+
+@media screen and (max-width: 768px) {
+  .nome{
+      display: flex;
+      
+      font-size: 30px;
+  }
+
+}
+

@@ -1,11 +1,11 @@
 <div class="conteudo">
-<app-header flexLayout="column"></app-header>
+<app-header flexLayout="row"></app-header>
 
-<div flexLayout="row" fxFlex>
-    <div fxFlex="15">
+<div flexLayout="column" fxFlex>
+    <div>
         <app-sidebar></app-sidebar>
     </div>
-    <div fxFlex="85">
+    <div fxFlex="90">
         <router-outlet></router-outlet>
     </div>
 </div>

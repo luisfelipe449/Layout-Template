@@ -20,9 +20,6 @@ const routes: Routes = [{
   children: [{
     path:'',
     component: HomeComponent,
-  },{
-    path: 'posts',
-    component: PostsComponent,
   },
   {
     path: 'terapias/coach',
@@ -55,14 +52,6 @@ const routes: Routes = [{
   {
     path: 'artesanatos/pingentes',
     component: PingentesComponent,
-  },
-  {
-    path: 'sobremim',
-    component: AboutmeComponent,
-  },
-  {
-    path: 'contato',
-    component: ContactComponent,
   },
 ]
 }];

@@ -34,6 +34,13 @@ $template-2-theme: mat.define-light-theme((
 @include mat.all-component-themes($template-2-theme);
 @import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
 
+
+:root{
+--fonte:'Dongle', 'Roboto', "Helvetica Neue",'Dongle', sans-serif;
+--cor1: #273951;
+--cor2: #26B0C3;
+}
+
 body, html{
     padding:0;
     margin:0;

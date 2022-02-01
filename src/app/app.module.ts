@@ -22,6 +22,8 @@ import { EscapulariosComponent } from './modules/artesanatos/escapularios/escapu
 import { PingentesComponent } from './modules/artesanatos/pingentes/pingentes.component';
 import { AboutmeComponent } from './modules/aboutme/aboutme.component';
 import { ContactComponent } from './modules/contact/contact.component';
+import {MatRadioModule} from '@angular/material/radio';
+
 
 
 
@@ -54,7 +56,8 @@ import { ContactComponent } from './modules/contact/contact.component';
     MatListModule,
     MatButtonModule,
     MatMenuModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatRadioModule
   ],
   providers: [],
   bootstrap: [AppComponent]

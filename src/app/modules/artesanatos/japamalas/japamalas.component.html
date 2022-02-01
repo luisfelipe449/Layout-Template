@@ -4,7 +4,7 @@
     <ng-image-slider class="slider" #nav
     [images]="imageCollection"
     [infinite]="true"
-    [autoSlide]="3"></ng-image-slider>
+    [autoSlide]={interval:3,stoponHover:true}></ng-image-slider>
 
     <div class="conteudo">
         <h2>O que é a Japamala?</h2>

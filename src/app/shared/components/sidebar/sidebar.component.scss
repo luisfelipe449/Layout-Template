@@ -6,6 +6,16 @@ mat-sidenav-container{
     
 }
 
+
+
+span{
+  font-size: 35px;
+  text-align: start;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+
 .svg {
   filter: invert(52%) sepia(100%) saturate(331%) hue-rotate(139deg) brightness(93%) contrast(95%);
   width: 50%;
@@ -19,6 +29,24 @@ mat-sidenav-container{
     text-decoration: none;
     color: white;
     line-height: 25px;
+}
+
+
+#redes{
+  font-family:'Dongle', 'Roboto', "Helvetica Neue",'Dongle', sans-serif;
+        color: #fff;
+        cursor: pointer;
+        font-weight: 500;  
+        font-size: 25px;
+        text-decoration: none;
+        align-items:center;
+        display: flex;
+        
+        
+}
+
+#redes a{
+  margin-left: 10px;
 }
 
 #button {
@@ -49,8 +77,9 @@ mat-sidenav-container{
 }
 
 #sidenav>ul>li>ul>li::before{
+  list-style-position: outside;
+  content: '✦';
   
-  content: '▶';
   position: relative;
   left: 0;
   
@@ -60,15 +89,24 @@ ul#list, ul{
  margin: 10px 0px;
 }
 
+img{
+  width: 25px;
+}
+
+ul{
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
+
 
 @media screen and (max-width: 768px) {
   
   mat-sidenav-container{
-    min-width: fit-content;
-    position:sticky;
-    box-sizing: content-box;
-    height: 100%;
+    min-height: 100%;
   }
+
+
 
 .svg{
   max-width: 30%;
@@ -88,14 +126,14 @@ ul#list, ul{
 
 #sidenav>ul{
   list-style-type: none;
-  font-size: 20px;
+  font-size: 30px;
   
 }
 
 #sidenav>ul>li>ul>li{
   list-style-type: none;
 
-  font-size: 20px;
+  font-size: 25px;
 }
 
 #list:hover{

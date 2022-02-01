@@ -19,7 +19,7 @@ a{
 
   
 header{
-    background-color: (#273951);
+    background-image: linear-gradient(to right, #273951 100%, #27475E);
     padding: 10px; 
     min-width: 550px;
 }
@@ -27,9 +27,13 @@ header{
 @media screen and (max-width: 768px) {
   .nome{
       display: flex;
-      
       font-size: 30px;
   }
+
+  header{
+      min-width: 585px;
+  }
+
 
 }
 

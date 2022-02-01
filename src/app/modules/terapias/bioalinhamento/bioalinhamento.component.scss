@@ -1,0 +1,39 @@
+.banner{
+    display: block;
+    margin: auto;
+    min-width: 100px;
+    max-width: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+hr{
+    height: 2px;
+    width: 250px;
+    margin: 20px auto;
+    background-color: #26B0C3;
+}
+
+.conteudo{
+    text-align: justify;
+    
+    margin: auto 10px;
+    line-height: 22px;
+    flex: 6 1 160px;
+    
+}
+
+h1{
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.tudo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+  
+  height: 100%;
+}

@@ -22,8 +22,7 @@ import { EscapulariosComponent } from './modules/artesanatos/escapularios/escapu
 import { PingentesComponent } from './modules/artesanatos/pingentes/pingentes.component';
 import { AboutmeComponent } from './modules/aboutme/aboutme.component';
 import { ContactComponent } from './modules/contact/contact.component';
-import {MatRadioModule} from '@angular/material/radio';
-
+import { NgImageSliderModule } from 'ng-image-slider';
 
 
 
@@ -57,7 +56,7 @@ import {MatRadioModule} from '@angular/material/radio';
     MatButtonModule,
     MatMenuModule,
     BrowserAnimationsModule,
-    MatRadioModule
+    NgImageSliderModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

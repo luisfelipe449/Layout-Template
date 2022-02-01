@@ -14,6 +14,7 @@ import {MatMenuModule} from '@angular/material/menu';
 import {MatTabsModule} from '@angular/material/tabs';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatExpansionModule} from '@angular/material/expansion';
+import { NgImageSliderModule } from 'ng-image-slider';
 
 
 
@@ -39,7 +40,8 @@ import {MatExpansionModule} from '@angular/material/expansion';
     MatMenuModule,
     MatTabsModule,
     BrowserAnimationsModule,
-    MatExpansionModule
+    MatExpansionModule,
+    NgImageSliderModule
   ],
   exports: [
     HeaderComponent,

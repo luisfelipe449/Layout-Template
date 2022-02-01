@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const appName = 'template-2';
-const outputPath = `${__dirname}/dist/${appname}`;
+const outputPath = `${__dirname}/dist/${appName}`;
 
 app.use(express.static(outputPath));
 app.get('/*', (req, res) => {

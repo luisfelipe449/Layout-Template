@@ -98,10 +98,9 @@ ul{
 
 @media screen and (max-width: 768px) {
   
-  mat-sidenav-container{
-    
-  }
-
+ mat-sidenav-container{
+   min-height: 1000px;
+ }
 
 
 .svg{
